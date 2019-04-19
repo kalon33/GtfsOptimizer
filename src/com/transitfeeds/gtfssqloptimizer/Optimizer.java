@@ -84,7 +84,7 @@ public class Optimizer {
         runQuery("CREATE INDEX patterns_pattern_index ON patterns (pattern_index)");
         runQuery("CREATE INDEX patterns_stop_index ON patterns (stop_index)");
         runQuery("CREATE INDEX trips_pattern_index ON trips (pattern_index)");
-        runQuery("DROP TABLE stop_times");
+//        runQuery("DROP TABLE stop_times");
         
         mStopTimeStmt.close();
         mPatternInsertStmt.close();
